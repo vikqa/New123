@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" >
+	<parameter name="browserVer" value="chrome" />
+	<parameter name="baseURL" value="http://www.phptravels.net" />
+
+ 	<listeners>
+		<listener class-name="com.deftsoft.demo.utilities.TestListener" />		
+	<!-- 	<listener class-name="com.deftsoft.demo.utilities.ExtentReporterNG" />  --> 
+	</listeners>
+	
+
+
+	<!--    	 <test name="exampletest1">
+		<classes>
+			  <parameter name="browserVer" value="internet explorer" />	
+			  <class name="application.admin.tests.RoleManagementTests" />	
+			<class name="application.admin.tests.UserManagementTests" />
+		</classes>
+	</test>  --> 
+	
+   		<test name="exampletest2">
+		<classes>
+			  <parameter name="browserVer" value="firefox" />
+		 	  <class name="com.deftsoft.demo.pom.test.HomeTests" />	
+		
+		</classes>
+	</test>
+   		
+   		
+</suite> 
